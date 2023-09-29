@@ -117,7 +117,6 @@ header {
 .hero .info {
     width: 470px;
     padding: 64px 64px 64px 0;
-    margin-left: 230px;
 }
 
 .hero .info .title {
@@ -270,7 +269,7 @@ header {
 }
 .hero .group-img .card {
     position: absolute;
-    top: 350px;
+    top: 392px;
     right: -104px;
     bottom: 0;
 }
