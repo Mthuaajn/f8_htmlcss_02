@@ -324,3 +324,63 @@ header {
     border-radius: 40px;
     border: 1px solid #ffb900;
 }
+
+.courses .body {
+    margin-top: 55px;
+    display: flex;
+}
+
+.courses .card {
+    margin-left: 30px;
+    flex: 1;
+    border-radius: 12px;
+    border: 1px solid #e2dfda;
+    background: #fff;
+}
+
+.courses .card:first-child {
+    margin-left: 0px;
+}
+
+.card .thumbnail {
+    width: 100%;
+}
+
+.courses .info {
+    padding: 16px 22px 22px 22px;
+}
+
+.courses .body .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses .body .row .highlight-title {
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66667;
+    margin-bottom: 6px;
+}
+
+.courses .rating {
+    display: flex;
+    align-items: center;
+}
+
+.courses .rating .point {
+    color: #fea31b;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-left: 6px;
+}
+
+.courses .info .desc {
+    color: #5f5b53;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85714;
+    margin-bottom: 12px;
+}
