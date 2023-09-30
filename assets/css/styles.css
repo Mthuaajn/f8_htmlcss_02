@@ -660,7 +660,7 @@ header {
 
 /* =====================footer===================== */
 
-footer {
+.footer {
     background: #2e2100;
     padding-top: 96px;
     padding-bottom: 28px;
@@ -671,30 +671,30 @@ footer {
     line-height: 1.85714;
 }
 
-footer .content {
+.footer .content {
     display: flex;
 }
 
-footer .group .desc {
+.footer .group .desc {
     width: 267px;
     margin: 18px 0;
 }
 
-footer .social {
+.footer .social {
     display: flex;
     gap: 0 18px;
 }
 
-footer .group {
+.footer .group {
     margin-right: 145px;
 }
 
-footer .list-item {
+.footer .list-item {
     display: flex;
     gap: 0 130px;
 }
 
-footer .list-item .heading {
+.footer .list-item .heading {
     position: relative;
     color: #fff;
     font-size: 1.6rem;
@@ -704,7 +704,7 @@ footer .list-item .heading {
     margin-bottom: 43px;
 }
 
-footer .list-item .heading::before {
+.footer .list-item .heading::before {
     position: absolute;
     bottom: -14px;
     left: 0px;
@@ -716,28 +716,28 @@ footer .list-item .heading::before {
     background: #59554b;
 }
 
-footer .list > li {
+.footer .list > li {
     margin-bottom: 12px;
 }
 
-footer .list li:last-child {
+.footer .list li:last-child {
     margin-bottom: 0px;
 }
 
-footer .column .list .item {
+.footer .column .list .item {
     white-space: nowrap;
 }
 
-footer .column-last .list .item {
+.footer .column-last .list .item {
     white-space: normal;
 }
 
-footer .column-last .qty-item {
+.footer .column-last .qty-item {
     color: #fff;
     font-weight: 600;
 }
 
-footer .copyright {
+.footer .copyright {
     position: relative;
     margin-top: 67px;
     display: flex;
@@ -746,7 +746,7 @@ footer .copyright {
     color: #807d74;
 }
 
-footer .copyright::before {
+.footer .copyright::before {
     content: "";
     position: absolute;
     top: -28px;
