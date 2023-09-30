@@ -103,7 +103,7 @@ header {
     border-radius: 24.5px;
     background: #171100;
 }
-/* =====================hero===================== */
+/* ==hero== */
 .hero-wrap {
     background: #fffcf4;
     padding-top: 72px;
@@ -272,4 +272,55 @@ header {
     top: 392px;
     right: -104px;
     bottom: 0;
+}
+
+/* =====================Courses===================== */
+.courses {
+    margin-top: 200px;
+}
+.courses .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses .header .title {
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.26316;
+}
+
+.courses .header .desc {
+    margin-top: 16px;
+    color: #5f5b53;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.66667;
+}
+
+.courses .header .icons {
+    display: flex;
+    gap: 0 18px;
+}
+
+.courses .header .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.courses .header .active {
+    border-radius: 40px;
+    background: #ffb900;
+}
+
+.courses .header .inactive {
+    border-radius: 40px;
+    border: 1px solid #ffb900;
 }
