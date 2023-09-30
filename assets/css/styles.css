@@ -343,7 +343,8 @@ header {
 }
 
 .card .thumbnail {
-    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .courses .info {
@@ -493,10 +494,14 @@ header {
 }
 
 .features .thumbnail-1 {
+    width: 100%;
+    object-fit: cover;
     margin-top: 34px;
 }
 
 .features .thumbnail-2 {
+    width: 100%;
+    object-fit: cover;
     margin-left: 30px;
     margin-bottom: 33px;
 }
@@ -578,7 +583,8 @@ header {
 }
 
 .blog .thumbnail {
-    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 .blog .list-blog .desc {
     margin-left: 10px;
@@ -645,7 +651,7 @@ header {
 }
 
 .blog .list-circle {
-    margin-top:38px;
+    margin-top: 38px;
     display: flex;
     justify-content: center;
     align-items: center;
