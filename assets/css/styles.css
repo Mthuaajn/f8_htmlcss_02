@@ -569,6 +569,7 @@ header {
 }
 
 .blog .header .desc {
+    width: 448px;
     color: #696262;
     text-align: center;
     font-size: 1.6rem;
