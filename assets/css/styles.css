@@ -343,7 +343,7 @@ header {
 }
 
 .card .thumbnail {
-    width: 100%;
+    max-width: 100%;
 }
 
 .courses .info {
@@ -383,4 +383,67 @@ header {
     font-weight: 400;
     line-height: 1.85714;
     margin-bottom: 12px;
+}
+
+/* =====================feedback===================== */
+.feedback {
+    margin-top: 200px;
+    background: #2e2100;
+}
+
+.feedback .layout {
+    display: flex;
+    justify-content: space-between;
+    padding: 96px 0;
+    align-items: center;
+}
+
+.feedback .comment {
+    width: 740px;
+    color: #fff;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.53846;
+}
+
+.feedback .name {
+    margin-top: 18px;
+    color: #f7f7f7;
+    font-family: Sen;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.41667;
+}
+
+.feedback .major {
+    margin-top: 4px;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85714;
+}
+
+.feedback .circle {
+    width: 6px;
+    height: 6px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #634700;
+}
+
+.feedback .list-circle {
+    margin-top: 28px;
+    display: flex;
+    gap: 6px;
+}
+
+.feedback .column-2 {
+    position: relative;
+}
+
+.feedback .image {
+    position: absolute;
+    top: -26px;
+    left: -32px;
 }
